@@ -177,7 +177,7 @@ void extractSalt(string s)
     salt[0] = s[0];
     salt[1] = s[1];
 }
-// checks common keys and returns true if match found
+// Checks common keys and returns true if match found
 bool checkCommonPasswords(string s, string hash)
 {
     //printf("checkcommonpasswords\n");
